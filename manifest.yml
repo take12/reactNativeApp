@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: reactNativeApp
+  host: reactNativeApp
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - reactNativeApp-AdvancedMobileAccess
+  - reactNativeApp-imfpush
+  - reactNativeApp-cloudantNoSQLDB
